@@ -1,0 +1,152 @@
+*{
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+.atas{
+	width: 100%;
+	height: 40px;
+	background-color: #7a4928;
+}
+.atas .kanan{
+	float: right;
+}
+.atas .kanan ul li{
+	display: inline-block;
+	margin: 7px 15px;
+}
+.atas .kanan ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	font-family: arial;
+	font-size: 20px;
+}
+.atas .logo{
+	float: left;
+	display: flex;
+	margin: 3px 17px;
+	font-size: 27px;
+
+}
+.atas .logo a{
+	text-decoration: none;
+	color: white;
+	margin-left: 5px;
+	font-weight: 600;
+	font-family: arial;
+
+}
+.konten{
+	width: 100%;
+	height: 530px;
+	background-color: #f1e5cd;
+}
+.konten .text{
+	width: 45%;
+	float: left;
+	height: 100%;
+	justify-content: center;
+	text-align: center;
+	padding-top: 30px;
+}
+.konten .text h1{
+	color: #3f3050;
+	font-weight: 600;
+	font-size: 34px;
+	font-family: arial;
+}
+.konten .text p{
+	color: #604e57;
+	font-size: 18px;
+	line-height: 19px;
+	padding-bottom: 10px;
+}
+.konten .form{
+	float: right;
+	width: 50%;
+	height: 90%;
+	padding-top: 4%;
+	display: block;
+}
+.konten .form .inp{
+	width: 80%;
+	height: 23px;
+	margin: 5px 10%;
+	background-color: #f1e5cd;
+	border: solid 0.3px;
+}
+.konten .form .label{
+	margin-left: 10%;
+	font-weight: 600;
+	font-size: 20px;
+	color: #463749;
+}
+.konten .form .radio{
+	margin-left: 10%;
+	margin-top: 5px;
+	display: flex;
+}
+.konten .form .radio label{
+	margin-right: 20px;
+}
+.konten .form .radio input[type="radio"]{
+	width: 17px;
+	height: 17px;
+	margin-right: 5px;
+}
+.konten .form select{
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	width: 80%;
+	height: 25px;
+	background-color: #f1e5cd;
+}
+.ket{
+	margin-left: 10%;
+	margin-top: 10px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.konten .form textarea{
+	margin-left: 10%;
+	margin-top: 10px;
+	background-color: #f1e5cd;
+}
+.konten .form .tombol{
+	margin-left: 15%;
+	margin-top: 10px;
+}
+.konten .form .tombol .btn{
+	width: 150px;
+	height: 28px;
+	background-color: #35fe1a;
+	margin-right: 20%;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+.konten .form .tombol .batal{
+	width: 150px;
+	height: 28px;
+	background-color: #ff221a;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+
+}
+.foot{
+	height: 40px;
+	padding-top: 10px;
+	width: 100%;
+	background-color: #e4a850;
+}
+.foot .cop{
+	color: white;
+	padding-top: 10px;
+}
